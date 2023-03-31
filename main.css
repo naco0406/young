@@ -51,5 +51,5 @@
     }
 }
 
-#fade-text {font-family: 'Alex Brush', cursive; font-size: 4em}
-@import url(https://fonts.googleapis.com/css?family=Alex+Brush);
+#fade-text {font-family: 'Black Han Sans', sans-serif;; font-size: 4em}
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
