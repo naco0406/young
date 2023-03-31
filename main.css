@@ -1,6 +1,6 @@
 .drawsvg,svg {width: 100%; height: 100%}
 
-.stroke {stroke: #000; stroke-width: 2px; stroke-dasharray: 0 250;
+.stroke {stroke: #000; stroke-width: 5px; stroke-dasharray: 0 250;
     stroke-opacity: 1; fill: none;
     -webkit-animation: stroke_offset 12s infinite;
     animation: stroke_offset 12s infinite;
@@ -8,64 +8,45 @@
     animation-timing-function: cubic-bezier(.25, .46, .45, .94)
 }
 
-/* @-webkit-keyframes stroke_offset {
-    100%, 25% {stroke-dasharray: 0 250; stroke-opacity: 1
-    }
-    50%, 75% {stroke-dasharray: 250 0; stroke-opacity: .75
-    }
-    55%, 70% {stroke-dasharray: 250 0; stroke-opacity: 0
-    }
-}
-
-@keyframes stroke_offset {
-    100%, 25% {stroke-dasharray: 0 250; stroke-opacity: 1
-    }
-    50%, 75% {stroke-dasharray: 250 0; stroke-opacity: .75
-    }
-    55%, 70% {stroke-dasharray: 250 0; stroke-opacity: 0
-    }
-} */
 
 @-webkit-keyframes stroke_offset {
-    100%, 25% {stroke-dasharray: 0 250; stroke-opacity: 1
+    100%, 20% {stroke-dasharray: 0 250; stroke-opacity: 1
     }
-    50%, 75% {stroke-dasharray: 250 0; stroke-opacity: 1
+    50%, 80% {stroke-dasharray: 250 0; stroke-opacity: 1
     }
 }
 
 @keyframes stroke_offset {
-    100%, 25% {stroke-dasharray: 0 250; stroke-opacity: 1
+    100%, 20% {stroke-dasharray: 0 250; stroke-opacity: 1
     }
-    50%, 75% {stroke-dasharray: 250 0; stroke-opacity: 1
+    50%, 80% {stroke-dasharray: 250 0; stroke-opacity: 1
     }
 }
 
-
-.fill { fill-opacity: 0 }
-/* .fill { fill: #000; fill-opacity: 0;
-    -webkit-animation: fill_offset 10s infinite;
-    animation: fill_offset 10s infinite;
+.fill { fill: #000; fill-opacity: 0;
+    -webkit-animation: fill_offset 12s infinite;
+    animation: fill_offset 12s infinite;
     -webkit-animation-timing-function: cubic-bezier(.25, .46, .45, .94);
     animation-timing-function: cubic-bezier(.25, .46, .45, .94)
 }
 
 @-webkit-keyframes fill_offset {
-    100%, 25%, 35%, 90% {
+    100%, 20% {
         fill-opacity: 0
     }
-    50%, 70% {
+    50%, 80% {
         fill-opacity: 1
     }
 }
 
 @keyframes fill_offset {
-    100%, 25%, 35%, 90% {
+    100%, 20% {
         fill-opacity: 0
     }
-    50%, 70% {
+    50%, 80% {
         fill-opacity: 1
     }
-} */
+}
 
-#fade-text {font-family: 'Black Han Sans', sans-serif;; font-size: 20em}
+#fade-text {font-family: 'Black Han Sans', sans-serif;; font-size: 15em}
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
